@@ -29,10 +29,7 @@ function loop(e) {
 
   i++;
   if (i <= iterations) {
-
-
     var str = rubyhash2json(data.str);
-
     var data = clean_rubbish(str);
 
     console.debug('data.str: ' + data.str);
